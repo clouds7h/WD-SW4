@@ -6,21 +6,17 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/alpas.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
-</div>
-<!-- TODO: Make a short description -->
-<div align="center">
-  Short Description. (Optional)
+  <h3 align="center">Features Page</h3>
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=clouds7h/WD-SW4)
 
 ---
 
@@ -60,17 +56,17 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project: This project is a website that contains a landing page that has a navigation bar that would lead you to other pages which contains the feature designs. <br>
+- Whats the purpose: The purpose of this project is to enhance our HTML and CSS skills as well as to show our creativity in coming up with designs. <br>
+- What are key components: The key components for this project is a landing page and 2 feature pages. <br>
+- What technology used and how it is used: For this project I utilized the use of HTML, CSS, and JS. <br>
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Landing Page
+- 2 Feature Page
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -116,5 +112,7 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+  |-|-|-|
+| How to create an Image Slider in HTML CSS and JavaScript Step by Step Creative JS Coder. | I used this for my image slider in my Sorcerer page. | https://www.youtube.com/watch?v=OTjmnF27ADk&t=8s |
+| Jiu Jutsu Kaisen Wiki | I used this for the facts that I put on my pages. | https://jujutsu-kaisen.fandom.com/wiki/Jujutsu_Sorcerer#2018 |
+
