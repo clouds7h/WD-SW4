@@ -117,4 +117,5 @@ WD-ProjectName
   |-|-|-|
 | How to create an Image Slider in HTML CSS and JavaScript Step by Step Creative JS Coder. | I used this for my image slider in my Sorcerer page. | https://www.youtube.com/watch?v=OTjmnF27ADk&t=8s |
 | Jiu Jutsu Kaisen Wiki | I used this for the facts that I put on my pages. | https://jujutsu-kaisen.fandom.com/wiki/Jujutsu_Sorcerer#2018 |
+| Font Awesome | Used for the icons in the sorceres page | https://cdnjs.cloudflare.com/ajax/libs/font-awesome |
 
