@@ -54,12 +54,14 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 Description of the project in details.
-
-Guiding Question:
-- What is the project: This project is a website that contains a landing page that has a navigation bar that would lead you to other pages which contains the feature designs. <br>
-- Whats the purpose: The purpose of this project is to enhance our HTML and CSS skills as well as to show our creativity in coming up with designs. <br>
-- What are key components: The key components for this project is a landing page and 2 feature pages. <br>
-- What technology used and how it is used: For this project I utilized the use of HTML, CSS, and JS. <br>
+The project involves creating a landing page and 2 feature pages. For this projet I created a landing page that has a Jujutsu Kaisen theme. It consists of a header that contains navigation buttons and the JJK logo and a card containing the needed info for the project. 
+The nav bar contains buttons that leads to the 2 features pages. The first feature page is Kyoto Jujutsu High page. The contents of the header is the same as the landing page as it is the same across all pages. Below the header is a hero image used as background. Below it is an about us section containing more details about Kyoto Jujutsu High. For the Sorceres page, you would see the same header from the landing page. You would also see an image slider containg images and info about the sorceres studying in Jujutsu High. I also added an animation for the content that would be displayed in each slide. For the icons used in the image slider buttons, I got it from the Font Awesome icons library. <br> <br>
+For the landing page and jujutsu high page, I maximized the use of HTML and CSS. As for the sorceres page, since I have an image slider I added a JS file. As for the design, I made sure that the theme of Jujutsu Kaisen would be carried out across all pages. Some key parts is the red border for the buttons as well as the dark backgrounds in the pages. <br> <br>
+Guiding Question: <br> <br>
+<b>- What is the project: </b> This project is a website that contains a landing page that has a navigation bar that would lead you to other pages which contains the feature designs. <br>
+<b>- Whats the purpose:</b> The purpose of this project is to enhance our HTML and CSS skills as well as to show our creativity in coming up with designs. <br>
+<b>- What are key components:</b> The key components for this project is a landing page and 2 feature pages. <br>
+<b>- What technology used and how it is used:</b> For this project I utilized the use of HTML, CSS, and JS. <br>
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -115,4 +117,5 @@ WD-ProjectName
   |-|-|-|
 | How to create an Image Slider in HTML CSS and JavaScript Step by Step Creative JS Coder. | I used this for my image slider in my Sorcerer page. | https://www.youtube.com/watch?v=OTjmnF27ADk&t=8s |
 | Jiu Jutsu Kaisen Wiki | I used this for the facts that I put on my pages. | https://jujutsu-kaisen.fandom.com/wiki/Jujutsu_Sorcerer#2018 |
+| Font Awesome | Used for the icons in the sorceres page | https://cdnjs.cloudflare.com/ajax/libs/font-awesome |
 
