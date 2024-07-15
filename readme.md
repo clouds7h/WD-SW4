@@ -54,12 +54,12 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 Description of the project in details. <br> <br>
-This project is a features page created using HTML and CSS, centered around the popular anime series "Jujutsu Kaisen." The page highlights key sorcerers and elements of Jujutsu High, showcasing characters, their unique abilities, and the world they inhabit. Designed with a keen attention to detail, the layout and styling aim to capture the essence of the series, offering an engaging and visually appealing experience for fans. Through this project, I've demonstrated my proficiency in HTML and CSS, creating a dynamic and thematic web page that immerses users in the captivating universe of Jujutsu Kaisen.
+This project is a features page created using HTML and CSS, centered around the popular anime series "Jujutsu Kaisen." The landing page contains details about the project. The about jjk page contains the series features (genre, audience, plot), and there is a page featuring Gojo Satoru, his personality, abiliities, powers and a little trivia. <br> <<br> 
 Guiding Question: <br> <br>
-<b>- What is the project: </b> This project is a website that contains a landing page that has a navigation bar that would lead you to other pages which contains the feature designs. <br>
-<b>- Whats the purpose:</b> The purpose of this project is to enhance our HTML and CSS skills as well as to show our creativity in coming up with designs. <br>
-<b>- What are key components:</b> The key components for this project is a landing page and 2 feature pages. <br>
-<b>- What technology used and how it is used:</b> For this project I utilized the use of HTML, CSS, and JS. <br>
+<b>- What is the project: </b> This project is a website that contains a landing page that has a navigation bar that would lead you to other pages which contains 2 features that revolves around Jiu Jutsu Kaisen. <br> <br>
+<b>- Whats the purpose:</b> The purpose of this project is to enhance our HTML and CSS skills as well as to show our creativity in coming up with designs. <br> <br>
+<b>- What are key components:</b> The key components for this project is a landing page and 2 feature pages. <br> <br>
+<b>- What technology used and how it is used:</b> For this project I utilized the use of HTML, CSS, and JS. <br> <br>
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -115,5 +115,6 @@ WD-ProjectName
   |-|-|-|
 | How to create an Image Slider in HTML CSS and JavaScript Step by Step Creative JS Coder. | I used this for my image slider in my Sorcerer page. | https://www.youtube.com/watch?v=OTjmnF27ADk&t=8s |
 | Jiu Jutsu Kaisen Wiki | I used this for the facts that I put on my pages. | https://jujutsu-kaisen.fandom.com/wiki/Jujutsu_Sorcerer#2018 |
-| Font Awesome | Used for the icons in the sorceres page | https://cdnjs.cloudflare.com/ajax/libs/font-awesome |
+| Jiu Jutsu Kaisen Wiki | For the facts I put about Gojo | https://jujutsu-kaisen.fandom.com/wiki/Satoru_Gojo |
+| Font Awesome | Used for the icons in the Gojo Satoru page | https://cdnjs.cloudflare.com/ajax/libs/font-awesome |
 
