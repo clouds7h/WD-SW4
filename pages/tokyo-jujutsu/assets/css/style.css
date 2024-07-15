@@ -1,10 +1,13 @@
 /* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif; /* Changed to Lato for readability */
     margin: 0;
     padding: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/jjk-all.jpg') center/cover no-repeat;
     color: #f5f5f5;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/jjk-all.jpg') center/cover no-repeat;
 }
 
 h1, h2, h4 {
@@ -33,11 +36,14 @@ a:hover {
     padding: 1rem;
     gap: 1rem;
     background-color: rgba(0, 0, 0, 0.7);
-    width: calc(100% - 2rem);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: 1000;
 }
 
-.logo {
+.logo img {
     height: 50px;
 }
 
@@ -55,7 +61,7 @@ a:hover {
     color: #fff;
     transition: all 0.2s ease;
     position: relative;
-    margin-right: 5px;
+    margin-right: 40px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); 
 }
 
@@ -87,224 +93,98 @@ a:hover {
     opacity: 0;
 }
 
-/* Hero Section Styles */
-.hero {
-    position: relative;
-    text-align: center;
-    color: white;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 100px); /* Adjust min-height to ensure full view */
+    padding-top: 100px; /* Add padding to avoid overlap with fixed header */
 }
 
-.hero img {
+.wrapper {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);  
+    padding: 38px;  
+    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+    text-align: center;
+}
+
+.banner-image {
+    background-image: url('../img/jujutsu-high.webp');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
     width: 100%;
-    height: auto;
-    opacity: 0.8;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.255);
+    margin-bottom: 20px;
 }
 
-.hero .main-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+h1 {
+    font-family: 'Righteous', sans-serif; /* Changed font to Righteous for headings */
+    color: rgba(255, 255, 255, 0.98);
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
 }
 
-.hero .quote {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 1em;
-    border-radius: 10px;
-    margin-bottom: 1em;
-}
-
-.hero .quote p {
-    font-style: italic;
-}
-
-.hero .quote span {
-    display: block;
-    margin-top: 0.5em;
-    text-align: right;
-    font-size: 0.9em;
-}
-
-.hero .bg-black {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 1em;
-    border-radius: 10px;
-}
-
-.hero .bg-black h2 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
-}
-
-/* About Section Styles */
-.about-section {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 2em;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-    margin: 2em auto;
-    color: #333;
-    text-align: left;
-}
-
-.about-section img {
-    border-radius: 10px;
-    margin-bottom: 1em;
-    max-width: 100%;
-    height: auto;
-}
-
-.about-section h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-    color: #111;
-    text-align: center;
-}
-
-.about-section p {
-    font-size: 1.2em;
+p {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
     line-height: 1.6;
-    color: #444;
+    letter-spacing: 1px;
+    text-transform: none;
+    margin-bottom: 20px;
 }
 
-
-/* Responsive Styles for About Section */
-@media (max-width: 768px) {
-    .about-section {
-        padding: 1.5em;
-    }
-
-    .about-section h1 {
-        font-size: 2em;
-    }
-
-    .about-section p {
-        font-size: 1.1em;
-    }
+.card-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-@media (max-width: 576px) {
-    .about-section {
-        padding: 1em;
-    }
-
-    .about-section h1 {
-        font-size: 1.8em;
-    }
-
-    .about-section p {
-        font-size: 1em;
-    }
+.card {
+    background-color: rgba(17, 25, 40, 0.85);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Responsive Styles */
-@media (max-width: 1200px) {
-    .hero .h1 {
-        font-size: 2em;
-    }
-
-    .hero .bg-black h2 {
-        font-size: 1.8em;
-    }
-
-    .hero .bg-black h4 {
-        font-size: 1em;
-    }
-
-    .section h1 {
-        font-size: 1.8em;
-    }
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 992px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .header .btn {
-        margin-bottom: 1em;
-    }
-
-    .hero .h1 {
-        font-size: 1.8em;
-    }
-
-    .hero .bg-black h2 {
-        font-size: 1.5em;
-    }
-
-    .hero .bg-black h4 {
-        font-size: 0.9em;
-    }
-
-    .section h1 {
-        font-size: 1.5em;
-    }
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.9);
 }
 
-@media (max-width: 768px) {
-    .header .logo img {
-        height: 40px;
-    }
-
-    .header .btn {
-        padding: 0.5em 0.8em;
-    }
-
-    .hero .main-title {
-        width: 90%;
-        padding: 0 1em;
-    }
-
-    .hero .h1 {
-        font-size: 1.5em;
-    }
-
-    .hero .bg-black h2 {
-        font-size: 1.3em;
-    }
-
-    .hero .bg-black h4 {
-        font-size: 0.8em;
-    }
-
-    .section h1 {
-        font-size: 1.3em;
-    }
-
-    .section p {
-        font-size: 1em;
-    }
+.card p {
+    font-size: 0.9rem;
+    color: #ddd;
+    margin-bottom: 15px;
+    line-height: 1.6;
 }
 
-@media (max-width: 576px) {
-    .header .btn {
-        margin-bottom: 0.5em;
-    }
+.card a {
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.4);
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
 
-    .hero .h1 {
-        font-size: 1.2em;
-    }
-
-    .hero .bg-black h2 {
-        font-size: 1em;
-    }
-
-    .hero .bg-black h4 {
-        font-size: 0.7em;
-    }
-
-    .section {
-        padding: 1em;
-    }
-
-    .section h1 {
-        font-size: 1.2em;
-    }
-
-    .section p {
-        font-size: 0.9em;
-    }
+.card a:hover {
+    background-color: rgba(255, 0, 0, 0.6);
 }
